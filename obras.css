@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+:root{
+    --cor_font_hover: #1D8FF0;
+    --cor_fonte: #6600FF;
+    --cor_linhas: #BD00FF;
+    --poppins: "Poppins", sans-serif;
+    --oxygen: "Oxygen", sans-serif;
+}
+body{
+    background-color: #262626;
+}
+#div-order{
+    margin-left: 70%;
+    margin-top: 40px;
+}
+#ordem-style{
+    height: 25px;
+    width: 200px;
+    border: solid 3px var(--cor_font_hover);
+    color: var(--cor_fonte);
+}
+option{
+    font-family: var(--oxygen);
+    border: none;
+}
+#div-list{
+    display: table;
+    text-align: center;
+    margin-left: 178px;
+    margin-top: 30px;
+}
+.li-img{
+    display: table-cell;
+    padding: 15px;
+}
+.links{
+    text-decoration: none;
+    font-family: var(--poppins);
+    color: #fff;
+}
+.img-peq{
+    width: 170px;
+    height: 270px;
+    border-radius: 16px;
+}
+/*     hover*/
+.links:hover{
+    color: var(--cor_font_hover);
+}
+/*     hover*/
